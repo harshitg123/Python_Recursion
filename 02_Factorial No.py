@@ -9,3 +9,4 @@ def fac(n):
 
 inp=int(input())
 print("Factorial of",inp,"is:",fac(inp))
+
