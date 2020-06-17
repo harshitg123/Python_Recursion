@@ -33,6 +33,9 @@ When any function is called from main(), the memory is allocated to it on the st
 
 # Images Explaining recursion.
    ![](img-2.png)
+   
+   
+   ![](img-1.png)
 
  * It may be sound like c++ but the concept is same in python.
  * It has basics example of recursion.
