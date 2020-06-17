@@ -1,6 +1,5 @@
 # Program is for printing 
 # A Triangle
-
 # * 
 # *  * 
 # *  *  * 
