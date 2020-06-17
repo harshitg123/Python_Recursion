@@ -13,7 +13,7 @@ def  fun1(n):
     for i in range(n): 
         print(" * ",end="")
     print("\n",end="")    
-fun1(5)        
+fun1(int(input()))        
 
 # I modified this question for printing 
 # Triangle but for you want a look then visit 
