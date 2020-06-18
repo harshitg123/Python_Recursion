@@ -31,10 +31,14 @@ If fact(10) is called, it will call fact(9), fact(8), fact(7) and so on but the 
 # How memory is allocated to different function calls in recursion?
 When any function is called from main(), the memory is allocated to it on the stack. A recursive function calls itself, the memory for a called function is allocated on top of memory allocated to calling function and different copy of local variables is created for each function call. When the base case is reached, the function returns its value to the function by whom it is called and memory is de-allocated and the process continues.
 
-# Images Explaining recursion.
-   ![](img-2.png)
+# Images Explaining recursion
+    1. Recursive Function:
+   ![](img-2.png) 
    
+    2. Recursive Function returning value:
+   ![](img-3.jpg)
    
+    3. Factorial Example: 
    ![](img-1.png)
 
  * It may be sound like c++ but the concept is same in python.
