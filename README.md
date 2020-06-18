@@ -4,7 +4,7 @@ The process in which a function calls itself directly or indirectly is called re
 # What is base condition in recursion?
 In the recursive program, the solution to the base case is provided and the solution of the bigger problem is expressed in terms of smaller problems.
 
-    def fact(int n):
+    def fact(n):
         if n <= 1: #base case
             return 1
         else:    
@@ -18,7 +18,7 @@ The idea is to represent a problem in terms of one or more smaller problems, and
 # Why Stack Overflow error occurs in recursion?
 If the base case is not reached or not defined, then the stack overflow problem may arise. Let us take an example to understand this.
 
-    def fact(int n):
+    def fact(n):
         # wrong base case (it may cause
         # stack overflow).
         if n == 100: 
